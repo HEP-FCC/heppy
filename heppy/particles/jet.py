@@ -209,7 +209,7 @@ class Jet(P4):
 
     def __init__(self, *args, **kwargs):
         super(Jet, self).__init__(*args, **kwargs)
-        self.constituents = None
+        self.constituents = {}
         self.tags = JetTags()
         self._q = None
 
